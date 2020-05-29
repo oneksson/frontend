@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>PROYECO LINKEDIN</title>
+<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<style>
+body {
+	font-family: 'Open sans';
+	font-size: 14px;
+	background-color: hsl(218, 28%, 13%);
+	color: hsl(0, 0%, 100%);
+	font-weight: 500;
+	max-width: 1440px;
+
+	
+}
+
+/* Style the header */
+header {
+  background-color: hsl(217, 28%, 15%);
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  text-align: center;
+  font-family: 'Raleway';
+ margin: 0px 0px 100px 0px;
+ <!-- border: 1px solid white; -->
+  
+  
+ }
+section{
+	text-align: center;
+	padding-top: 0px;
+	padding-right: 100px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+	
+	font-family: 'Raleway';
+}
+
+
+footer {
+  background-color: hsl(216, 53%, 9%);
+  padding: 10px;
+  text-align: center;
+  font-family: 'Raleway';
+ 
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ 
+}
+
+header li {
+  float: right;
+}
+
+header li a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-family: 'Raleway';
+  color: hsl(0, 0%, 100%);
+}
+#b {
+	float: left;
+	font-size: 40px;
+	font-weight: bold;
+}
+header li a:hover {
+  background-color: #111111;
+}
+
+
+pre.uno{
+  display: block;
+  font-family: 'Raleway';
+  white-space: pre;
+  line-height:50px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+pre.dos{
+  display: block;
+  font-family: 'Raleway';
+  white-space: pre;
+  font-size: 15px;
+  line-height:25px;
+  
+}
+.elboton{
+	background-color: hsl(198, 60%, 50%);
+	border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+   margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+  width: 207px;
+  height:45px;
+}
+
+.elboton:hover {
+  background-color: white;
+  color: black;
+}
+
+div#centrado{
+	width: 1000px;
+	height: 500px;
+	<!--overflow: auto;-->
+	text-align: center;
+	margin: 90px 100px 180px 100px;
+	<!--box-sizing: border-box;-->
+	
+}
+
+div#fila{
+	width: 400px;
+	height: 250px;
+	float: left;	
+	overflow: auto;
+	border-style: solid;
+	padding-top: 50px;
+	text-align: center;
+	
+}
+div#fila:hover{
+background-color: hsl(198, 60%, 50%);
+ cursor: pointer; 
+}
+
+pre.titulo{
+  display: block;
+  font-family: 'Raleway';
+  white-space: pre;
+  line-height:15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+pre.cuerpo{
+  display: block;
+  font-family: 'Raleway';
+  white-space: pre;
+  font-size: 10px;
+  line-height: 15px;
+  
+}
+
+div#centrado2{
+	width: 1030px;
+	height: 400px;
+	<!--overflow: auto;-->
+	text-align: center;
+	margin: 90px auto 200px auto;
+	border-style: solid;
+	border-color: red;
+}
+div#columna{
+	width: 511px;
+	height: 100%;
+	float: left;	
+	overflow: auto;
+	border-style: solid;
+	text-align: left;
+	
+}
+
+a{
+ color: cyan; 
+ text-decoration: none;
+}
+.underline {
+text-decoration: underline;
+ 
+ }
+a:hover{
+
+}
+
+img.probando {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+pre.dosvariado{
+  display: block;
+  font-family: 'Raleway';
+  white-space: pre;
+  font-size: 14px;
+  line-height:20px;
+  
+}
+
+
+div#centrado3{
+	width: 1030px;
+	height: 300px;
+	<!--overflow: auto;-->
+	
+	overflow: auto;
+	text-align: center;
+	margin: 90px auto 200px auto;
+	border-style: solid;
+	border-color: red;
+}
+div#newcolumna{
+	width: 310px;
+	height: 60%;
+	float: left;	
+<!--overflow: auto;-->
+	border-color: white;
+	border-style: solid;
+	text-align: center;
+	background-color: hsl(219, 30%, 18%);
+	margin: 40px 10px 0 10px;
+	
+	
+}
+img#comillas{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+
+}
+img.imgperfil{
+	 
+	margin-left: 30px; 
+	margin-right: 0;
+	width:20px;height:20px; 
+	border-radius: 50px;
+}
+
+pre.perfil{
+  display: block;
+  font-family: 'Raleway';
+  white-space: pre;
+  font-size: 5px;
+  text-align: left;
+  font-weight: bold;
+}
+span.perfilbajo{
+  display: block;
+  font-family: 'Raleway';
+  white-space: pre;
+  font-size: 5px;
+  text-align: left;
+
+}
+</style>
+
+</head>
+<body>
+
+
+<header>
+  
+  <ul>
+  <li id="b"><img src="logo.svg" alt="algo"></li>
+  <li><a href="#features">Features</a></li>
+  <li><a href="#team">Team</a></li>
+  <li><a href="#sign in">Sign in</a></li>
+  
+</ul>
+
+
+</header>
+
+
+<section>
+<img src="illustration-intro.png" alt="Italian Trulli">
+<pre class="uno">All your files in one secure location, 
+accesible anywhere.</pre>
+<pre class="dos">
+Fylo stores all your most important files in one secure location. 
+Access them wherever you need, share and collaborate with
+friends family, and co-workers.
+</pre>
+
+
+<input type="button" class="elboton" value="Get Started">
+<br/>
+<br/>
+
+<div id="centrado">
+
+	<div id="fila">
+	<pre class="titulo">
+	<img src="icon-access-anywhere.svg" alt="uno">
+	
+	Acess your files, anywhere</pre>
+	<pre class="cuerpo">
+	The ability to use a smartphone, tablet, or computer
+	to access your account means your files follow you
+	everywhere.
+	</pre>
+	</div>
+
+	<div id="fila">
+	<pre class="titulo">
+	<img src="icon-security.svg" alt="dos">
+	
+	Security you can trust	</pre>
+	<pre class="cuerpo">
+	2-factor authentication and user-controlled encryption area
+	just a couple of the security features we allow to help
+	secure your files.
+	</pre>
+	</div>
+
+	<div id="fila">
+	<pre class="titulo">
+	<img src="icon-collaboration.svg" alt="tres">
+	
+	Real-time collaboration	</pre>
+	<pre class="cuerpo">
+	Securely share files and folders with friends, family and
+	colleagues for live collaboration. No email attachments
+	required.
+	</pre>
+	</div>
+
+	<div id="fila">
+	<pre class="titulo">
+	<img src="icon-any-file.svg" alt="cuatro">
+	
+	Store any type of file	</pre>
+	<pre class="cuerpo">
+	Whether you're sharing holidays photos or work
+	documents, Fylo has you covered allowing for all file
+	types to be securely stored and shared.
+	</pre>
+	</div>
+
+</div>
+<div id="centrado2">
+
+	<div id="columna">
+	<img src="illustration-stay-productive.png" class="probando" alt="illustration-stay-productive">
+	</div>
+
+	<div id="columna">
+	<pre class="uno">
+    Stay productive,
+    wherever you are</pre>
+	<pre class="dosvariado">
+	Never let location be an issue when accessing your files. Fylo has you 
+	covered for all of your file storage needs.
+	
+	Securely share files and folders with friends, family and colleagues for live
+	collaboration. No email attachments required.
+	
+	<span class="underline"><a href="fylo-dark-theme-landing-page-master.html" >See how Fylo works <img src="icon-arrow.svg" alt="arrow"></a><span></pre>
+	</div>
+	
+
+</div>
+
+
+<div id="centrado3">
+<img src="bg-quotes.png" alt="comillas" id="comillas">
+
+<div id="newcolumna">
+<pre class="dosvariado">
+Fylo has improved our team productivity by
+an order of magnitude. Since making the 
+switch our team has become a well-oiled
+collaboration machine.</pre>
+
+<pre class="perfil"><img src="profile-1.jpg" alt="perfil1" class="imgperfil">Satish Patel</pre>
+
+
+<span class="perfilbajo">Founder & CEO, Huddle</span>
+
+
+
+</div>
+
+
+
+<div id="newcolumna">
+<pre class="dosvariado">
+Fylo has improved our team productivity by
+an order of magnitude. Since making the 
+switch our team has become a well-oiled
+collaboration machine.</pre>
+<pre class="perfil">
+<img src="profile-2.jpg" alt="perfil2" class="imgperfil">Bruce McKenzie</pre>
+<span class="perfilbajo">Founder & CEO, Huddle</span></pre>
+</div>
+<div id="newcolumna">
+<pre class="dosvariado">
+Fylo has improved our team productivity by
+an order of magnitude. Since making the 
+switch our team has become a well-oiled
+collaboration machine.</pre>
+<pre class="perfil">
+<img src="profile-3.jpg" alt="perfil3" class="imgperfil">Iva Boyd
+<span class="perfilbajo">Founder & CEO, Huddle</span></pre>
+</div>
+
+</div>
+
+
+  <nav>
+    <ul>
+      <li><a href="#">London</a></li>
+      <li><a href="#">Paris</a></li>
+      <li><a href="#">Tokyo</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>London</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </article>
+</section>
+
+<footer>
+  <h2>Fylo</h2>
+</footer>
+
+
+
+
+
+</body>
+</html>
+
